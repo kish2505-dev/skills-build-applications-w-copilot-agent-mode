@@ -1,0 +1,144 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  text-align: center;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #22223b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f2e9e4;
+}
+
+
+.App-link, a {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #ffbe0b;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #f2e9e4 !important;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  margin-right: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  background: #ffbe0b;
+  color: #22223b !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+/* Buttons */
+button, .btn {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(251, 86, 7, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #f2e9e4;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  background: #f2e9e4;
+  box-shadow: 0 2px 8px rgba(34, 34, 59, 0.07);
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  padding: 1em;
+  text-align: left;
+}
+th {
+  background: #3a86ff;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #e0eafc;
+}
+tr:hover {
+  background: #ffbe0b22;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(58, 134, 255, 0.07);
+  padding: 2em 2.5em;
+  margin-bottom: 2em;
+}
+
+/* Logo left alignment for navbar */
+.octofit-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 12px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
